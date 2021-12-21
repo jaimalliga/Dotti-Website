@@ -1,0 +1,1147 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-20T04:47:02.971Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6437295000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 269300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.startTime()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate forgot password with invalid Email Id",
+        "description": "",
+        "id": "to-validate-forgot-password-of-dotti-forgot-page;to-validate-forgot-password-with-invalid-email-id",
+        "after": [
+          {
+            "result": {
+              "duration": 64500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endTime()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4143184000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1271200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch the chrome browser and load the dotti url",
+            "match": {
+              "location": "ForgotStepDefinition.userShouldLaunchTheChromeBrowserAndLoadTheDottiUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184342200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should go to the Drop Down SigIn",
+            "match": {
+              "location": "DottiStepDefinition.user_should_go_to_the_Drop_Down_SigIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200308100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click the sigIn button",
+            "match": {
+              "location": "DottiStepDefinition.click_the_sigIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2293516400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click the forgot password",
+            "match": {
+              "location": "ForgotStepDefinition.userShouldClickTheForgotPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77538800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter the invalid email id",
+            "match": {
+              "location": "ForgotStepDefinition.userEnterTheInvalidEmailId()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92461400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should click the Reset Password button",
+            "match": {
+              "location": "ForgotStepDefinition.userShouldClickTheResetPasswordButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1550648100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Should Check the url and Navigate to incorrect credential page",
+            "match": {
+              "location": "ForgotStepDefinition.userShouldCheckTheUrlAndNavigateToIncorrectCredentialPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate Forgot password of dotti forgot page",
+    "description": "",
+    "id": "to-validate-forgot-password-of-dotti-forgot-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/DottiForgot.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 229100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should lounch the browser and load the Dotti page URL",
+            "match": {
+              "location": "DottiStepDefinition.user_should_lounch_the_browser_and_load_the_Dotti_page_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169480400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should go to the Drop Down SigIn",
+            "match": {
+              "location": "DottiStepDefinition.user_should_go_to_the_Drop_Down_SigIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93274000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click the sigIn button",
+            "match": {
+              "location": "DottiStepDefinition.click_the_sigIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3893234500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print the title of dotti signin page",
+            "match": {
+              "location": "DottiStepDefinition.printTheTitleOfDottiSigninPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3832900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "print the current url dotti signin page",
+            "match": {
+              "location": "DottiStepDefinition.printTheCurrentUrlDottiSigninPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-20T04:47:17.972Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5945114900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 68200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.startTime()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validate the sigIn page invalid email and invalid passWord",
+        "description": "",
+        "id": "to-validate-sigin-functionality-of-dotti-page;validate-the-sigin-page-invalid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 94700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endTime()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4145459300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 96435100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should type the Invalid email id in dotti page",
+            "match": {
+              "location": "DottiStepDefinition.user_should_type_the_Invalid_email_id_in_dotti_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "invalid1",
+                  "jaijo@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "invalid2",
+                  "geeja@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "invalid3",
+                  "jaijohn@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102317000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should type the Invalid password in dotti page",
+            "match": {
+              "location": "DottiStepDefinition.user_should_type_the_Invalid_password_in_dotti_page(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "invPass1",
+                  "invPass2",
+                  "invPass3",
+                  "invPass4"
+                ]
+              },
+              {
+                "cells": [
+                  "112345",
+                  "123456",
+                  "134567",
+                  "145678"
+                ]
+              },
+              {
+                "cells": [
+                  "212345",
+                  "223456",
+                  "234567",
+                  "245678"
+                ]
+              },
+              {
+                "cells": [
+                  "312345",
+                  "323456",
+                  "334567",
+                  "345678"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94038600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User shhould click the SIGN IN button",
+            "match": {
+              "location": "DottiStepDefinition.user_shhould_click_the_SIGN_IN_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48167900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Should navigate to incorrect credential page",
+            "match": {
+              "location": "DottiStepDefinition.user_Should_navigate_to_incorrect_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 728300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should lounch the browser and load the Dotti page URL",
+            "match": {
+              "location": "DottiStepDefinition.user_should_lounch_the_browser_and_load_the_Dotti_page_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183422400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should go to the Drop Down SigIn",
+            "match": {
+              "location": "DottiStepDefinition.user_should_go_to_the_Drop_Down_SigIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91329800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click the sigIn button",
+            "match": {
+              "location": "DottiStepDefinition.click_the_sigIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1988301100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print the title of dotti signin page",
+            "match": {
+              "location": "DottiStepDefinition.printTheTitleOfDottiSigninPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3531400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "print the current url dotti signin page",
+            "match": {
+              "location": "DottiStepDefinition.printTheCurrentUrlDottiSigninPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-20T04:47:32.573Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5087837300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 288000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.startTime()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Validate the sigIn page valid email and invalid passWord",
+        "description": "",
+        "id": "to-validate-sigin-functionality-of-dotti-page;validate-the-sigin-page-valid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 112700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endTime()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4144618400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97253700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should type the valid Email id in dotti page",
+            "match": {
+              "location": "DottiStepDefinition.userShouldTypeTheValidEmailIdInDottiPage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "jaimalliga@gmail.com",
+                  "jai@gmail.com",
+                  "raj@gmail.com",
+                  "jaijohn@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96929200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should type the Invalid Password in dotti page",
+            "match": {
+              "location": "DottiStepDefinition.userShouldTypeTheInvalidPasswordInDottiPage(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "12345",
+                  "23456",
+                  "34567",
+                  "45678"
+                ]
+              },
+              {
+                "cells": [
+                  "54321",
+                  "65432",
+                  "76543",
+                  "87654"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86536200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User shhould click the SIGN IN button",
+            "match": {
+              "location": "DottiStepDefinition.user_shhould_click_the_SIGN_IN_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39099400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User Should navigate to incorrect credential page verify url",
+            "match": {
+              "location": "DottiStepDefinition.userShouldNavigateToIncorrectCredentialPageVerifyUrl()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 220000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should lounch the browser and load the Dotti page URL",
+            "match": {
+              "location": "DottiStepDefinition.user_should_lounch_the_browser_and_load_the_Dotti_page_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201437100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should go to the Drop Down SigIn",
+            "match": {
+              "location": "DottiStepDefinition.user_should_go_to_the_Drop_Down_SigIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2650364800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click the sigIn button",
+            "match": {
+              "location": "DottiStepDefinition.click_the_sigIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4023500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print the title of dotti signin page",
+            "match": {
+              "location": "DottiStepDefinition.printTheTitleOfDottiSigninPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3529300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "print the current url dotti signin page",
+            "match": {
+              "location": "DottiStepDefinition.printTheCurrentUrlDottiSigninPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-20T04:47:44.398Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5328866300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 68900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.startTime()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Validate the singin page invalid Email and valid Password bundle of data",
+        "description": "",
+        "id": "to-validate-sigin-functionality-of-dotti-page;validate-the-singin-page-invalid-email-and-valid-password-bundle-of-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 71000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endTime()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4143918400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 68719400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User should type the invalid Email id in dotti page\"kannan@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kannan@gmail.com\"",
+                  "offset": 51
+                }
+              ],
+              "location": "DottiStepDefinition.userShouldTypeTheInvalidEmailIdInDottiPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78120100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User should type the valid Password in dotti page\"abcdef\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdef\"",
+                  "offset": 49
+                }
+              ],
+              "location": "DottiStepDefinition.userShouldTypeTheValidPasswordInDottiPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94093800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User shhould click the SIGN IN button",
+            "match": {
+              "location": "DottiStepDefinition.user_shhould_click_the_SIGN_IN_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39816000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User Should check url and navigate to incorrect credential page",
+            "match": {
+              "location": "DottiStepDefinition.userShouldCheckUrlAndNavigateToIncorrectCredentialPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 202900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should lounch the browser and load the Dotti page URL",
+            "match": {
+              "location": "DottiStepDefinition.user_should_lounch_the_browser_and_load_the_Dotti_page_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188618900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should go to the Drop Down SigIn",
+            "match": {
+              "location": "DottiStepDefinition.user_should_go_to_the_Drop_Down_SigIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2520877400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click the sigIn button",
+            "match": {
+              "location": "DottiStepDefinition.click_the_sigIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4042800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print the title of dotti signin page",
+            "match": {
+              "location": "DottiStepDefinition.printTheTitleOfDottiSigninPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3962600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "print the current url dotti signin page",
+            "match": {
+              "location": "DottiStepDefinition.printTheCurrentUrlDottiSigninPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-20T04:47:57.017Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3047012400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.startTime()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Validate the singin page invalid Email and valid Password bundle of data",
+        "description": "",
+        "id": "to-validate-sigin-functionality-of-dotti-page;validate-the-singin-page-invalid-email-and-valid-password-bundle-of-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 92100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endTime()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4156149500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 71229500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User should type the invalid Email id in dotti page\"dhana@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dhana@gmail.com\"",
+                  "offset": 51
+                }
+              ],
+              "location": "DottiStepDefinition.userShouldTypeTheInvalidEmailIdInDottiPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77566400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User should type the valid Password in dotti page\"abcdef\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdef\"",
+                  "offset": 49
+                }
+              ],
+              "location": "DottiStepDefinition.userShouldTypeTheValidPasswordInDottiPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91048900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User shhould click the SIGN IN button",
+            "match": {
+              "location": "DottiStepDefinition.user_shhould_click_the_SIGN_IN_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43647600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User Should check url and navigate to incorrect credential page",
+            "match": {
+              "location": "DottiStepDefinition.userShouldCheckUrlAndNavigateToIncorrectCredentialPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 722800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User should lounch the browser and load the Dotti page URL",
+            "match": {
+              "location": "DottiStepDefinition.user_should_lounch_the_browser_and_load_the_Dotti_page_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166665600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should go to the Drop Down SigIn",
+            "match": {
+              "location": "DottiStepDefinition.user_should_go_to_the_Drop_Down_SigIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110048200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click the sigIn button",
+            "match": {
+              "location": "DottiStepDefinition.click_the_sigIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2259551000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print the title of dotti signin page",
+            "match": {
+              "location": "DottiStepDefinition.printTheTitleOfDottiSigninPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3215100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "print the current url dotti signin page",
+            "match": {
+              "location": "DottiStepDefinition.printTheCurrentUrlDottiSigninPage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-20T04:48:07.225Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6458848300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 150100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.startTime()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Validate the singin page invalid Email and valid Password bundle of data",
+        "description": "",
+        "id": "to-validate-sigin-functionality-of-dotti-page;validate-the-singin-page-invalid-email-and-valid-password-bundle-of-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 117000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.endTime()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4138003500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 75848500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User should type the invalid Email id in dotti page\"bala@ymail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bala@ymail.com\"",
+                  "offset": 51
+                }
+              ],
+              "location": "DottiStepDefinition.userShouldTypeTheInvalidEmailIdInDottiPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76994400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User should type the valid Password in dotti page\"abcdef\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdef\"",
+                  "offset": 49
+                }
+              ],
+              "location": "DottiStepDefinition.userShouldTypeTheValidPasswordInDottiPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92882300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User shhould click the SIGN IN button",
+            "match": {
+              "location": "DottiStepDefinition.user_shhould_click_the_SIGN_IN_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68416600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User Should check url and navigate to incorrect credential page",
+            "match": {
+              "location": "DottiStepDefinition.userShouldCheckUrlAndNavigateToIncorrectCredentialPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate sigIn functionality of dotti page",
+    "description": "",
+    "id": "to-validate-sigin-functionality-of-dotti-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/DottiLogin.feature",
+    "tags": []
+  }
+]

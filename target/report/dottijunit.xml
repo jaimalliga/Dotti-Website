@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="77.70363">
+<testcase classname="To validate Forgot password of dotti forgot page" name="To validate forgot password with invalid Email Id" time="14.998787">
+<system-out><![CDATA[Given User should launch the chrome browser and load the dotti url..........passed
+When User should go to the Drop Down SigIn..................................passed
+And Click the sigIn button..................................................passed
+And User should click the forgot password...................................passed
+And User enter the invalid email id.........................................passed
+And User should click the Reset Password button.............................passed
+Then User Should Check the url and Navigate to incorrect credential page....passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate sigIn functionality of dotti page" name="Validate the sigIn page invalid email and invalid passWord" time="14.601004">
+<system-out><![CDATA[Given User should lounch the browser and load the Dotti page URL............passed
+When User should go to the Drop Down SigIn..................................passed
+And Click the sigIn button..................................................passed
+And print the title of dotti signin page....................................passed
+And print the current url dotti signin page.................................passed
+And User should type the Invalid email id in dotti page.....................passed
+And User should type the Invalid password in dotti page.....................passed
+And User shhould click the SIGN IN button...................................passed
+Then User Should navigate to incorrect credential page......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate sigIn functionality of dotti page" name="Validate the sigIn page valid email and invalid passWord" time="11.823685">
+<system-out><![CDATA[Given User should lounch the browser and load the Dotti page URL............passed
+When User should go to the Drop Down SigIn..................................passed
+And Click the sigIn button..................................................passed
+And print the title of dotti signin page....................................passed
+And print the current url dotti signin page.................................passed
+And User should type the valid Email id in dotti page.......................passed
+And User should type the Invalid Password in dotti page.....................passed
+And User shhould click the SIGN IN button...................................passed
+Then User Should navigate to incorrect credential page verify url...........passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate sigIn functionality of dotti page" name="Validate the singin page invalid Email and valid Password bundle of data" time="12.618052">
+<system-out><![CDATA[Given User should lounch the browser and load the Dotti page URL............passed
+When User should go to the Drop Down SigIn..................................passed
+And Click the sigIn button..................................................passed
+And print the title of dotti signin page....................................passed
+And print the current url dotti signin page.................................passed
+And User should type the invalid Email id in dotti page"kannan@gmail.com"...passed
+And User should type the valid Password in dotti page"abcdef"...............passed
+And User shhould click the SIGN IN button...................................passed
+Then User Should check url and navigate to incorrect credential page........passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate sigIn functionality of dotti page" name="Validate the singin page invalid Email and valid Password bundle of data 2" time="10.207054">
+<system-out><![CDATA[Given User should lounch the browser and load the Dotti page URL............passed
+When User should go to the Drop Down SigIn..................................passed
+And Click the sigIn button..................................................passed
+And print the title of dotti signin page....................................passed
+And print the current url dotti signin page.................................passed
+And User should type the invalid Email id in dotti page"dhana@gmail.com"....passed
+And User should type the valid Password in dotti page"abcdef"...............passed
+And User shhould click the SIGN IN button...................................passed
+Then User Should check url and navigate to incorrect credential page........passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate sigIn functionality of dotti page" name="Validate the singin page invalid Email and valid Password bundle of data 3" time="13.455048">
+<system-out><![CDATA[Given User should lounch the browser and load the Dotti page URL............passed
+When User should go to the Drop Down SigIn..................................passed
+And Click the sigIn button..................................................passed
+And print the title of dotti signin page....................................passed
+And print the current url dotti signin page.................................passed
+And User should type the invalid Email id in dotti page"bala@ymail.com".....passed
+And User should type the valid Password in dotti page"abcdef"...............passed
+And User shhould click the SIGN IN button...................................passed
+Then User Should check url and navigate to incorrect credential page........passed
+]]></system-out>
+</testcase>
+</testsuite>
