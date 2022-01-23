@@ -447,10 +447,16 @@ public class BaseClass {
 	public static void get() {
 		System.out.println("first update");
 	}
+		
+	public static void set() {
+		System.out.println("2nd update");
+	}
 	
 	public static void john() {
 		System.out.println("jai update");
 	}
+
+
 	
 	
 	
