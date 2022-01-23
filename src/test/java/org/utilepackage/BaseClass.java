@@ -448,6 +448,10 @@ public class BaseClass {
 		System.out.println("first update");
 	}
 	
+	public static void set() {
+		System.out.println("2nd update");
+	}
+	
 	
 	
 	
