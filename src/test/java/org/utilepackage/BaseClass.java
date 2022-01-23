@@ -448,6 +448,9 @@ public class BaseClass {
 		System.out.println("first update");
 	}
 	
+	public static void john() {
+		System.out.println("jai update");
+	}
 	
 	
 	
