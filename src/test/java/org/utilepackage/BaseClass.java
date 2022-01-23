@@ -444,7 +444,9 @@ public class BaseClass {
 		}
 	}
 	
-	
+	public static void get() {
+		System.out.println("first update");
+	}
 	
 	
 	
